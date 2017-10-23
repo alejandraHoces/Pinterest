@@ -1,0 +1,194 @@
+/*header {
+  position: fixed;
+}*/
+
+.fila1 {
+  padding-bottom: 10px;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.fila1 li {
+    font-size: 20px;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.fila1 li .C-red {
+  color: #B22222;
+  font-size: 35px;
+}
+
+.fila1 .cajadebusqueda {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  width: 71%;
+  height: 20px;
+  padding: 10px;
+}
+
+.fila1 .cajadebusqueda .buscadoriconos{
+  width: 100%;
+}
+
+.fila1 .cajadebusqueda .buscadoriconos input {
+    width: 85%;
+    border: none;
+    line-height: 20px;
+    font-size: 18px;
+    outline: 0;
+    background-color: transparent;
+}
+
+.fila1 .usuario a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 25px;
+}
+
+.fila1 .usuario .icons {
+  padding-left: 20px;
+}
+/*fila2*/
+
+.fila2 {
+  width: 100%;
+  padding: 10px 0;
+
+}
+
+.fila2 div{
+    display: inline-block;
+
+}
+
+
+.fila2 div p {
+  text-align: center;
+  color:white;
+  padding: 20px 10px;
+  border-radius: 6px;
+  margin: 0;
+}
+
+.fila2 .box1 {
+  width: 8%;
+  border-radius: 6px;
+  background-color: rgb(82, 110, 134);
+  background-image:url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/5e/6b/8c/5e6b8c7f2915fe427cfaf6f32a701b98.jpg");
+}
+
+.fila2 .box2 {
+  width: 6%;
+  border-radius: 6px;
+  background-color: rgb(162, 163, 167);
+  background-image:url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/fa/22/d5/fa22d5115f698a88e3fdbdf7ecb11de0.jpg");
+}
+
+.fila2 .box3 {
+  width: 6%;
+  border-radius: 6px;
+  background-color: rgb(129, 115, 96);
+  background-image: url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/95/1e/97/951e977e8d8d14de75e2393cee980c81.jpg");
+}
+
+.fila2 .box4 {
+  width: 8%;
+  border-radius: 6px;
+  background-color: rgb(38, 36, 41);
+  background-image: url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/48/42/2f/48422f83f4e838239cf76008518a4e8e.jpg");
+}
+
+.fila2 .box5 {
+  width: 6%;
+  border-radius: 6px;
+  background-color:rgb(125, 99, 75);
+  background-image:url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/d3/aa/eb/d3aaebb36d9cbb335dd46309b748509e.jpg");
+}
+
+.fila2 .box6 {
+  width: 10%;
+  border-radius: 6px;
+  background-color:rgb(54, 48, 31);
+  background-image:url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/ac/40/18/ac401832d11d1e5ff494c26cbab4323c.jpg");
+}
+
+.fila2 .box7 {
+  width: 7%;
+  border-radius: 6px;
+  background-color:rgb(69, 89, 80);
+  background-image:url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/92/f4/20/92f4203f3308f5f813b1d2d33cd9114f.jpg");
+}
+
+.fila2 .box8 {
+  width: 8%;
+  border-radius: 6px;
+  background-color:rgb(100, 44, 74);
+  background-image:url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/bb/1a/1b/bb1a1b58b0a78ba725e7ea557a7cd2ed.jpg");
+}
+
+.fila2 .box9 {
+  width: 15%;
+  border-radius: 6px;
+  background-color:rgb(147, 140, 125);
+  background-image:url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/23/85/a0/2385a09873f7f0a613bc2b1f13219455.jpg");
+}
+
+.fila2 .box10 {
+  width: 6%;
+  border-radius: 6px;
+  background-color:rgb(103, 103, 103);
+  background-image:url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/0b/79/53/0b795394703666f95d3dacf5fc89f197.jpg");
+}
+
+.fila2 .box11 {
+  width: 6%;
+  border-radius: 6px;
+  background-color:rgb(255, 18, 0);
+  background-image:url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/b6/15/b7/b615b726bf56bfb24f381279f5e999fc.jpg");
+}
+
+.fila2 .box12 {
+  width: 5%;
+  border-radius: 6px;
+  background-color:rgb(210, 141, 169);
+  background-image:url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/cc/b8/35/ccb835b2857ed29b7f790c60589dd479.jpg");
+}
+
+.fila2 .siguiente a {
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 23px;
+}
+
+.fila2 .siguiente .icons2 {
+  color: grey;
+  position: absolute;
+  top: 17%;
+}
+/*seccion imagenes*/
+
+#contenedor {
+    position:relative;
+    width: 95%;
+  /*  outline: 1px solid yellow; */
+    margin-left: 30px;
+  }
+
+.imagenes {
+  width: 300px;
+  padding-left: 15px;
+  padding-top: 20px;
+  float: left;
+}
+
+.imagenes p {
+  font-family: 'Montserrat', sans-serif;
+  color: #8c8c8c;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 90%;
+}
