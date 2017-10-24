@@ -34,7 +34,7 @@ header {
   background-color: #f2f2f2;
   border-radius: 5px;
   margin: 0 16px;
-  width: 65%;
+  width: 60%;
   height: 20px;
   padding: 10px;
 }
@@ -44,7 +44,7 @@ header {
 }
 
 .fila1 .cajadebusqueda .buscadoriconos input {
-    width: 85%;
+    width: 80%;
     border: none;
     line-height: 20px;
     font-size: 20px;
@@ -55,18 +55,18 @@ header {
 .fila1 .usuario a {
   text-decoration: none;
   color: #b3b3b3;
-  font-size: 25px;
+  font-size: 27px;
 }
 
 .fila1 .usuario .icons {
-  padding-left: 15px;
+  padding-left: 17px;
 }
 /*fila2*/
 
 .fila2 {
-  width: 110%;
+  width: 115%;
   padding: 10px 0;
-
+  padding-left: 10px;
 }
 
 .fila2 div{
@@ -154,12 +154,12 @@ header {
   background-image:url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/0b/79/53/0b795394703666f95d3dacf5fc89f197.jpg");
 }
 
-.fila2 .box11 {
+/*.fila2 .box11 {
   width: 6%;
   border-radius: 6px;
   background-color:rgb(255, 18, 0);
   background-image:url("https://s-media-cache-ak0.pinimg.com/111x55_sf-76/b6/15/b7/b615b726bf56bfb24f381279f5e999fc.jpg");
-}
+}*/
 
 /*.fila2 .box12 {
   width: 5%;
@@ -182,14 +182,27 @@ header {
 /*seccion imagenes*/
 
 .imagenes {
-  padding:0 30px;
-  margin-top: 150px;
-  column-width: 220px; <!---->
+  padding:0 20px;
+  margin-top: 170px;
+  column-width: 200px; /*divide elementos en columna*/
   column-count: 4;
-  column-gap: 20px;
+  column-gap: 10px;
   display: inline-block;
 }
 
+.imagenes .columna {
+  margin-bottom: 20px;
+}
+
+.imagenes .columna img {
+  border-radius: 15px;
+  max-width: 120%;
+}
+
+.imagenes .columna p {
+  font-family: 'Montserrat', sans-serif;
+  color: #8c8c8c;
+}
 
 
 
