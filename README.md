@@ -5,4 +5,4 @@ En el siguiente proyecto se replica la pagina de Pinterest con diversas imagenes
 - HTML  
 
 ### Producto Final
-[Pinterest Maquetado]()
+[Pinterest Maquetado](https://alejandrahoces.github.io/Pinterest/)
