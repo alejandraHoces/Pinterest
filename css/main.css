@@ -1,9 +1,4 @@
-/* {
-  margin: 0;
-  padding: 0;
-}*/
-
-
+/*seleccionando el encabezado y colocando una posicion fija */
 header {
   position: fixed;
   top: 0;
@@ -11,25 +6,25 @@ header {
   right: 0;
   background-color: #fff;
 }
-
+/*colocando el ancho de la fila 1 ,iconos,buscador y una linea de separacion*/
 .fila1 {
   padding: 0 0 10px 10px;
   width: 120%;
   margin-top: 10px;
   border-bottom: 1px solid #d3d3d3;
 }
-
+/*colocando los elementos de la lista en formato de linea y bloque*/
 .fila1 li {
     font-size: 20px;
     padding: 0 20px;
     display: inline-block;
 }
-
+/*seleccionando icono de pinterest y colocando color*/
 .fila1 li .C-red {
   color: #B22222;
   font-size: 35px;
 }
-
+/*colocando tamaño ,color ,ancho y bordes a la caja busqueda */
 .fila1 .cajadebusqueda {
   background-color: #f2f2f2;
   border-radius: 5px;
@@ -42,7 +37,7 @@ header {
 .fila1 .cajadebusqueda .buscadoriconos{
   width: 100%;
 }
-
+/*colocando tamaño a la caja busqueda en el cual se ingresa datos*/
 .fila1 .cajadebusqueda .buscadoriconos input {
     width: 80%;
     border: none;
@@ -61,7 +56,8 @@ header {
 .fila1 .usuario .icons {
   padding-left: 17px;
 }
-/*fila2*/
+
+/*fila2, colocando formato en line y bloque y ancho del contenedor*/
 
 .fila2 {
   width: 115%;
@@ -74,7 +70,7 @@ header {
 
 }
 
-
+/*colocando tipo de letra color de letra y bordes redondeados a las cajas*/
 .fila2 div p {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -83,7 +79,7 @@ header {
   border-radius: 6px;
   margin: 0;
 }
-
+/*cajas fila2 colocando imagen de fondo ancho de caja y fondo en caso no aparesca la imagen*/
 .fila2 .box1 {
   width: 8%;
   border-radius: 6px;
@@ -179,7 +175,7 @@ header {
   position: absolute;
   top: 60%;
 }
-/*seccion imagenes*/
+/*seccion imagenes-colocando bordes tipo de letra del texto y posicionando las imagenes*/
 
 .imagenes {
   padding:0 20px;
@@ -203,31 +199,3 @@ header {
   font-family: 'Montserrat', sans-serif;
   color: #8c8c8c;
 }
-
-
-
-
-
-/*#contenedor {
-    position:relative;
-    width: 95%;
-  /*  outline: 1px solid yellow;
-    margin-left: 30px;
-  }
-
-.imagenes {
-  width: 300px;
-  padding-left: 15px;
-  padding-top: 20px;
-  float: left;
-}
-
-.imagenes p {
-  font-family: 'Montserrat', sans-serif;
-  color: #8c8c8c;
-}
-
-img {
-  border-radius: 10px;
-  max-width: 90%;
-}*/
